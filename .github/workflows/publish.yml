@@ -3,6 +3,7 @@ on: [push]
 
 jobs:
   publish-hello-docker-image:
+    permissions: write-all
     runs-on: ubuntu-latest
 
     steps:
