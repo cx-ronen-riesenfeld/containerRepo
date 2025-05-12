@@ -18,3 +18,4 @@ jobs:
            docker build . --tag ghcr.io/contenedores/hello-docker-gcr-demo:latest
            docker run ghcr.io/contenedores/hello-docker-gcr-demo:latest
            docker push ghcr.io/contenedores/hello-docker-gcr-demo:latest
+ 
